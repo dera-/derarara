@@ -7,7 +7,7 @@
   "undef" : true,    // グローバル変数へのアクセスを禁止
   "devel" : true,     // console、alertを許可
   "predef" : [
-    "expect",
-    "describe"
+    "global",
+    "Backbone"
   ]
 }

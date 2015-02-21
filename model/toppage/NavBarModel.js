@@ -13,5 +13,5 @@
             this.set({selectedIndex: num});
         }
     });
-    global["NavBarModel"] = NavBarModel;
+    global.NavBarModel = NavBarModel;
 })((this || 0).self || global);
