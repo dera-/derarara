@@ -2,8 +2,11 @@ language: node_js
 node_js:
   - 1.2
 before_script:
-  - npm i backbone underscore mocha power-assert intelli-espower-loader
+  - npm i backbone underscore mocha power-assert intelli-espower-loader coveralls istanbul
   - npm install -g jshint
 script:
   - jshint model
-  - npm test
+  - make test-cov
+after_success:
+  - make coveralls
+  - make clean

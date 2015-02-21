@@ -1,1 +1,2 @@
 [![Build Status](https://secure.travis-ci.org/dera-/derarara.png?branch=master)](http://travis-ci.org/dera-/derarara)
+[![Coverage Status](https://coveralls.io/repos/dera-/derarara/badge.png?branch=master)](https://coveralls.io/r/dera-/derarara?branch=master)
