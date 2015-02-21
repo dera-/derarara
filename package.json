@@ -1,6 +1,14 @@
 {
-  "directories": {
-    "test": "test/"
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader"
+  },
+  "engines": {
+    "node": "1.2.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "intelli-espower-loader": "*",
+    "power-assert": "*"
   }
 }
 

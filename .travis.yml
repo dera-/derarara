@@ -1,3 +1,5 @@
 language: node_js
 node_js:
   - 1.2
+before_script:
+  - npm i backbone underscore mocha power-assert intelli-espower-loader
