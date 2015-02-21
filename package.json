@@ -8,7 +8,9 @@
   "devDependencies": {
     "mocha": "*",
     "intelli-espower-loader": "*",
-    "power-assert": "*"
+    "power-assert": "*",
+    "coveralls": "*",
+    "istanbul": "*"
   }
 }
 
