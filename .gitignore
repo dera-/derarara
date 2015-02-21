@@ -1,2 +1,5 @@
 *.jar
 *.apk
+node_modules/*
+uikit-2.15.0/*
+jquery-2.1.3.min.js
