@@ -6,11 +6,8 @@
     "node": "1.2.x"
   },
   "devDependencies": {
-    "mocha": "*",
     "intelli-espower-loader": "*",
-    "power-assert": "*",
-    "coveralls": "*",
-    "istanbul": "*"
+    "mocha": "*",
+    "power-assert": "*"
   }
 }
-

@@ -5,8 +5,5 @@ before_script:
   - npm i backbone underscore mocha power-assert intelli-espower-loader coveralls istanbul
   - npm install -g jshint
 script:
-  - jshint model
-  - make test-cov
-after_success:
-  - make coveralls
-  - make clean
+  - jshint src
+  - npm test
